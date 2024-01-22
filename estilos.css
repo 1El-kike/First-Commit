@@ -10,6 +10,74 @@ body {
 	color: #1d1d1d;
 }
 
+.menu{
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	width: 100%;
+	top: -36px;
+	position: relative;
+	background-color: #1d1d1d;
+}
+.nav-link{
+	list-style: none;
+}
+
+.nav{
+	display: flex;
+	justify-content: start;
+	gap: 60px;
+	padding: 20px 10px;
+	top: 0px;
+	width: 70%;
+	
+}
+
+.search{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	height: 100%;
+	width: 30%;
+	padding: 10px 10px;
+}
+.form-control{
+	padding: 10px;
+	border-radius: 8px;
+}
+.btn1{
+	padding: 10px;
+	border-radius: 8px;
+	background: #100a1f;
+	color: #137c32;
+	border: 1px solid #137c32;
+	transition: all ease 0.3s;
+
+}
+.btn1:hover{
+	
+	background: #137c32;
+	color: #fff;
+	border: 1px solid #137c32;
+
+}
+
+.btn2{
+	padding: 10px;
+	border-radius: 8px;
+	background: #137c32;
+	color: #fff;
+	transition: all ease 0.3s;
+	border: none;
+
+}
+.btn2:hover{
+	
+	background: #314537;
+	color: #fff;
+
+}
+
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
